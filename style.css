@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+.navigation{
+    /* background-color: rgb(177, 177, 235); */
+    height: 100vh;
+    width: 26vw;
+    margin-left: 5rem;
+}
+.feed{
+    /* background-color: rgb(175, 238, 238); */
+    height: 100vh;
+    width: 40vw;
+}
+.trending{
+    /* background-color: rgb(224, 121, 121); */
+    height: 100vh;
+    width: calc( 100% - 26vw - 40vw);
+}
+.line{
+    height: 220vh;
+    width: 0.02rem;
+    background-color: rgba(161, 157, 157, 0.445);
+}
+
+.twitter-icon{
+    margin-left: 3.3rem;
+    padding-top: 1rem;
+    color: rgb(0, 162, 255);
+    font-size: 2rem;
+}
+ul > *{
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-family: Arial;
+}
+.icon{
+    padding-right: 1rem;
+}
+
+.tweet{
+    margin-left: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: arial;
+    padding: 0.7rem;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    height: 2.9rem;
+    width: 11rem;
+    border-radius: 3rem;
+}
+
+.home:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 3rem;
+}
+.explore:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 3rem;
+}
+.notification:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 3rem;
+}
+.message:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 3rem;
+}
+.bookmark:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 3rem;
+}
+.profile:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 3rem;
+}
+.more:hover{
+    background-color: rgb(236, 233, 233);
+    border-radius: 3rem;
+}
+.search-box{
+    background-color: rgb(241, 237, 237);
+    height: 3rem;
+    width: 26rem;
+    margin-left: 2rem;
+    border-radius: 3rem;
+    border: none;
+    position: relative;
+    z-index: 0;
+    font-size: 1rem;
+    padding-left: 3.5rem;
+}
+.search-box:focus{
+    outline-color: rgb(0, 162, 255);
+    background-color: white;
+}
+.search{
+    display: flex;
+}
+.search-icon{
+    padding-left: 3.8rem;
+    padding-top: 0.8rem;
+    position: absolute;
+    z-index: 1;
+    color: rgb(134, 133, 133);
+}
+
+.trending-tweet{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    background-color: rgb(240, 243, 243);
+    height: 80vh;
+    width: 27rem;
+    border-radius: 1.5rem;
+}
+.heading{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding-left: 1.2rem;
+    padding-top: 1rem;
+}
+.news{
+    padding-left: 2rem;
+    margin-bottom: 1.8rem;
+    height: 6rem;
+    width: 27rem;
+    display: flex;
+}
+.content{
+    height: 6rem;
+    width: 15rem;
+    margin-right: 0.8rem;
+}
+.news:hover{
+    cursor: pointer;
+    background-color: rgb(223, 221, 221);
+}
+.news-head{
+    color: rgb(134, 133, 133);
+    font-size: 0.9rem;
+}
+.news-cont{
+    margin-top: 0.7rem;
+    margin-bottom: 0.4rem;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1rem;
+}
+img{
+    margin-top: 0.4rem;
+    border-radius: 1rem;
+}
+
+.follow{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    background-color: rgb(240, 243, 243);
+    height: 55vh;
+    width: 27rem;
+    border-radius: 1.5rem;
+}
+.account{
+    /* background-color: bisque; */
+    padding-left: 2rem;
+    margin-bottom: 1.8rem;
+    height: 5rem;
+    width: 27rem;
+    display: flex;
+    font-family: arial;
+}
+.account:hover{
+    cursor: pointer;
+   background-color: rgb(223, 221, 221);
+}
+.acc-img{
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+}
+.acc-detail{
+    margin: 1rem;
+}
+.acc-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.acc-name:hover{
+    text-decoration: underline;
+}
+.acc-username{
+    font-size: 1rem;
+    color: rgb(134, 133, 133);
+}
+.follow-btn{
+    margin-top: 1.2rem;
+    margin-left: 2.5rem;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+    border-radius: 2rem;
+    padding-top: 0.3rem;
+}
+.follow-btn:hover{
+    cursor: pointer;
+    background-color: rgb(66, 64, 64);
+}
+.h1{
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 3rem;
+    width: 40vw;
+}
+.star:hover{
+    cursor: pointer;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    background-color: rgb(189, 186, 186);
+}
+.home2{
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: arial;
+    padding-top: 0.7rem;
+    width: 35rem;
+    /* background-color: blueviolet; */
+}
+
+.h2{
+
+    height: 5.8rem;
+    width: 40vw;
+    display: flex;
+}
+.profile-pic{
+    height: 3.6rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+}
+.tweet-value{
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    height: 3rem;
+    width: 30rem;
+    font-size: 1.3rem;
+    font-family: arial;
+}
+.space{
+    margin-left: 5rem;
+}
+.h3{
+    display: flex;
+}
+.option-icon{
+    color: rgb(0, 162, 255);
+    margin-top: 1.8rem;
+    margin-right: 1rem;
+}
+.tweet2{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: arial;
+    padding: 0.7rem;
+    color: white;
+    background-color: rgb(76, 186, 250);
+    height: 2.9rem;
+    width: 11rem;
+    border-radius: 3rem;
+}
+.h4{
+    font-family: arial;
+    display: flex;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    height:6rem;
+    width: 38vw;
+    /* background-color: rgb(65, 163, 219); */
+}
+.post-pic{
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+}
+.post-detail{
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+}
+.post-name{
+    margin-right: 0.7rem;
+    font-weight: bold;
+}
+.post-username{
+    color: rgb(134, 133, 133);
+    font-size: 0.9rem;
+}
+.dots{
+    color: grey;
+    margin-left: 13rem;
+}
+.dots:hover{
+    color: rgb(65, 163, 219);
+    cursor: pointer;
+    background-color: rgb(197, 211, 224);
+    border-radius: 50%;
+}
+.meme{
+    margin-left: 5rem;
+    height: 20rem;
+    width: 28rem;
+}
+hr{
+    opacity: 0.2;
+    background-color: rgba(196, 189, 189, 0.103);
+}
+.meme-icon{
+    margin-left: 5rem;
+    color: grey;
+}
